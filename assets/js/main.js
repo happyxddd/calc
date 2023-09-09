@@ -4,26 +4,27 @@ const plusBtn = document.querySelector('.plusBtn');
 const minusBtn = document.querySelector('.minusBtn');
 const multiplyBtn = document.querySelector('.multiplyBtn');
 const divideBtn = document.querySelector('.divideBtn');
-const sumbutBtn = document.querySelector('.sumbitBtn');
-
+const sumbitBtn = document.querySelector('.sumbitBtn');
+const resultEl = document.querySelector('.result');
 let action = '+';
 
-plusBtn.onclick = function(){
+plusBtn.onclick = function (){
     action = '+';
 }
-minusBtn.onclick = function(){
+minusBtn.onclick = function (){
     action = '-';
 }
-multiplyBtn.onclick = function(){
+multiplyBtn.onclick = function (){
     action = '*'
 }
-divideBtn.onclick = function(){
+divideBtn.onclick = function (){
     action = '/';
 }
 
-sumbit.onclick = function() {
+sumbitBtn.onclick = function () {
     if (action === '+'){
         const sum = Number (inputOne.value) + Number(inputTwo.value)
+        console.log(sum)
         resultEl.textContent = sum;
     } else if (action === '-'){
         const sum = Number (inputOne.value) - Number(inputTwo.value)
