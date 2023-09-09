@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-case
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 300px;
+    gap: 30px;
+}
+.second-case
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gap-function
+{
+    display: flex;
+    gap: 20px;
+}
